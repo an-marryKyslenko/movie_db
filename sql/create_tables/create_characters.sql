@@ -4,7 +4,7 @@ CREATE TABLE characters (
 	description TEXT NOT NULL,
 	role ENUM('leading', 'supporting', 'background'),
 	movie_id INT,
-	person_id INT,
+	person_id INT NULL,
 	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	FOREIGN KEY (movie_id) REFERENCES movies(movie_id),
