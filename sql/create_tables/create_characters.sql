@@ -10,3 +10,4 @@ CREATE TABLE characters (
 	FOREIGN KEY (movie_id) REFERENCES movies(movie_id),
 	FOREIGN KEY (person_id) REFERENCES persons(person_id)
 );
+
