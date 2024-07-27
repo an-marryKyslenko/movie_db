@@ -1,4 +1,5 @@
-```mermaid ER Diagram
+```mermaid
+erDiagram
 USERS {
 	int user_id PK
 	varchar username
